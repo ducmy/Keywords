@@ -1,0 +1,38 @@
+Basic command in laravel
+
+
+////////////////\\\\\\\\\\\\\\\\\
+Open tinker
+
+php artisan tinker
+
+////////////////\\\\\\\\\\\\\\\\\
+
+
+
+
+
+
+////////////////\\\\\\\\\\\\\\\\\
+Drop all table
+
+php artisan migrate:fresh
+
+////////////////\\\\\\\\\\\\\\\\\
+
+
+
+
+
+
+////////////////\\\\\\\\\\\\\\\\\
+Drop all table in insert data to colums
+
+php artisan migrate:fresh --seed
+
+
+
+////////////////\\\\\\\\\\\\\\\\\
+ 
+
+

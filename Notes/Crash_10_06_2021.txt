@@ -1,0 +1,17 @@
+10/6/2021
+
+One To Many
+
+https://www.itsolutionstuff.com/post/laravel-one-to-many-eloquent-relationship-tutorialexample.html
+
+
+Must: Create foreign key in (One) table
+Note: If want retrive from Lesson define
+
+
+
+
+
+
+
+

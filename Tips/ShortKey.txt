@@ -1,0 +1,5 @@
+http://www.keyxl.com/aaacd5a/43/Notepad-Plus-text-editor-software-keyboard-shortcuts.htm
+
+Alt-Shift-mouse    Select by columne 
+Shift-Home		   Select line
+Shift-End		   Select line

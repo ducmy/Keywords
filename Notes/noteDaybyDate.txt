@@ -1,0 +1,5 @@
+***Note***
+
+//About Docker
+cmd wsl --shutdown
+Get-Service LxssManager | Restart-Service

@@ -1,0 +1,45 @@
+Laravel Relation Ship
+
+(*) Important point
+
+********************* Many to many **********************************
+https://laraveldaily.com/pivot-tables-and-many-to-many-relationships/
+*********************************************************************
+
+
+********************* One to Many**********************************
+
+#Table schema
+
+user
+- id   (user id)
+
+lessons (One)
+- id   (lesson id)
+
+posts (Many)
+- id
+- lesson_id
+- user_id
+
+
+
+#Migrations steps
+- Define posts table
+- Define lessons table
+  *Add foreign key 
+     (Can add other task, refer to
+ 	    https://devdojo.com/bobbyiliev/how-to-add-a-new-column-to-an-existing-table-in-a-laravel-migration
+
+
+#Tinker Test
+php artisan tinker
+$post = App\Models\Post::find(1);
+$post->lesson;
+
+
+$user = App\Models\User::find(4);
+$user->posts;
+
+$lesson = App\Models\Lessons::find(1);
+$lesson->posts;
